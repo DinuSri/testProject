@@ -18,7 +18,7 @@ namespace testgit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtState.Text = "New form is opening";
+            txtState.Text = "New form is opening heeeee";
             t2 t2 = new t2();
             t2.ShowDialog();   
         }
