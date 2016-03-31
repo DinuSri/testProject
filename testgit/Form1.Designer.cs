@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.txtState = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -51,16 +52,25 @@
             this.button2.Text = "Empty";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // txtState
+            // 
+            this.txtState.Location = new System.Drawing.Point(60, 43);
+            this.txtState.Name = "txtState";
+            this.txtState.Size = new System.Drawing.Size(260, 20);
+            this.txtState.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(512, 280);
+            this.Controls.Add(this.txtState);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -68,6 +78,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtState;
     }
 }
 
